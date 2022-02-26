@@ -89,7 +89,7 @@
                     <h2 class="heading">Aim</h2>
                 </div>
                 <div class="desc1">
-                    <p class="desc">To add, delete and update data in a  DataFrame</p>
+                    <p class="desc">To add, delete and update data in a DataFrame</p>
                 </div>
             </div>
             <div class="box" id="theory">
@@ -102,14 +102,18 @@
                         spreadsheet.</h2>
                     <br>
                     <img src="/csSc/dataframe/images/df1.png" class="dataImg">
-                    <h3><b><center>ADD A DATA IN A DATAFRAME</center> </b></h3>
+                    <h3><b>
+                            <center>ADD A DATA IN A DATAFRAME</center>
+                        </b></h3>
                     <p class="desc">It contains an ordered collection of columns and rows that can be of different value
                         types
                         ( numeric, string, Boolean, etc.) and can be created from the lists, dictionary, and a list of a
                         dictionary, etc.</p>
                     <img src="/csSc/dataframe/images/df2.png" class="dataImg">
 
-                    <h3><b><center>DELETE A DATA IN A DATAFRAME</center> </b></h3>
+                    <h3><b>
+                            <center>DELETE A DATA IN A DATAFRAME</center>
+                        </b></h3>
 
                     <p class="desc">A Pandas DataFrame can be created in the real world by loading the datasets from
                         existing
@@ -120,7 +124,9 @@
                         style.</p>
                     <img src="/csSc/dataframe/images/df3.png" class="dataImg">
 
-                    <h3><b><center>UPDATE A DATA IN A DATAFRAME</center> </b></h3>
+                    <h3><b>
+                            <center>UPDATE A DATA IN A DATAFRAME</center>
+                        </b></h3>
 
                     <p class="desc">The modification of existing data in the data frame is referred to as updating.
                         We detail below four different methods that are commonly used for updating a data frame.</p>
@@ -197,16 +203,19 @@
                     <p class="desc">Creating DataFrame from a dictionary of pandas series.</p>
                     <p class="desc">In method#2, a DataFrame was created using a dictionary. Now we will first create a
                         dictionary
-                        using data series, followed by its usage for creating a data frame. The resultant data frame will have three columns corresponding to each key and number of rows will be same as the size of
+                        using data series, followed by its usage for creating a data frame. The resultant data frame
+                        will have three columns corresponding to each key and number of rows will be same as the size of
                         each list in value part.</p>
                     <h2 class="desc-heading">Example:</h2>
                     <p class="desc">import pandas as pd</p>
                     <p class="desc">#Create series</p>
-                    <p class="desc">s1 = pd.Series([&#39;Sakshi&#39;, &#39;Palak&#39;, &#39;Vivek&#39;, &#39;Pankaj&#39;)</p>
+                    <p class="desc">s1 = pd.Series([&#39;Sakshi&#39;, &#39;Palak&#39;, &#39;Vivek&#39;,
+                        &#39;Pankaj&#39;)</p>
                     <p class="desc">s2 = pd.Series([29, 25, 33, 24])</p>
                     <p class="desc">s3 = pd.Series([&#39;2nd&#39;, &#39;3rd&#39;,&#39;2nd&#39;,&#39;2nd&#39;])</p>
                     <p class="desc"># Create a dictionary of Series</p>
-                    <p class="desc">dict_of_nparray = {&#39;Name&#39;: s1, &#39;Marks&#39;: series2, &#39;Year&#39;:series3}</p>
+                    <p class="desc">dict_of_nparray = {&#39;Name&#39;: s1, &#39;Marks&#39;: series2,
+                        &#39;Year&#39;:series3}</p>
                     <p class="desc"># Create the DataFrame</p>
                     <p class="desc">df = pd.DataFrame(dictionary_of_nparray)</p>
                     <p class="desc">print(df)</p>
@@ -222,7 +231,8 @@
                         <li>Open the website by clicking Simulation.</li>
                         <li>From the drop-down options, choose a method for creating a DataFrame.</li>
                         <li>Note that you may also make changes in the code to try your own code.</li>
-                        <li>DO NOT TYPE ANYTHING IN THE INSTRUCTIONS BOX BELOW (not required for this lab experiment).</li>
+                        <li>DO NOT TYPE ANYTHING IN THE INSTRUCTIONS BOX BELOW (not required for this lab experiment).
+                        </li>
                         <li>To see the output in the output window, press the run button.</li>
                     </ol>
                 </div>
@@ -233,233 +243,246 @@
                 </div>
 
 
-
-                Python replace() method to update values in a DataFrame.
-                Using the Python replace() method, we can update or change the value of any string within a data frame. We need not provide the index or label values to it.
-                    
-                    Syntax:
-                               dataframe.replace("old string", "new string")
-                
-                
-                
-                Example:
-                              data.replace("Siri",  "Code",
-                                                       inplace=True)
-                
-                
-
-
-
-
                 <div class="desc1">
                     <h1 class="instruc">Instructions:</h1>
                     <p class="detl">Just click the next button to see which element goes to which position.</p>
 
-                    <h3><b><center>ADD A DATA IN A DATAFRAME</center> </b></h3>
+                    <div class="container_add">
+                        <h3><b>
+                                ADD A DATA IN A DATAFRAME
+                            </b></h3>
 
 
-                    <h2 class="detl-1">On runing: pandas.DataFrame([[1,2,3],[4,5,6],[7,8,9]], [0,1,2],['One','Two','Three'] )</h2>
-                   <div class="cont">
-                    <h1 class="anim an--1">[</h1>
-                    <h1 class="anim an--2">[</h1>
-                    <h1 class="anim an--3">1</h1>
-                    <h1>,</h1>
-                    <h1 class="anim an--4">2</h1>
-                    <h1>,</h1>
-                    <h1 class="anim an--5">3</h1>
-                    <h1 class="anim an--6">]</h1>
-                    <h1>,</h1>
-                    <h1 class="anim an--7">[</h1>
-                    <h1 class="anim an--8">4</h1>
-                    <h1>,</h1>
-                    <h1 class="anim an--9">5</h1>
-                    <h1>,</h1>
-                    <h1 class="anim an--10">6</h1>
-                    <h1 class="anim an--11">]</h1>
-                    <h1>,</h1>
-                    <h1 class="anim an--12">[</h1>
-                    <h1 class="anim an--13">7</h1>
-                    <h1>,</h1>
-                    <h1 class="anim an--14">8</h1>
-                    <h1>,</h1>
-                    <h1 class="anim an--15">9</h1>
-                    <h1 class="anim an--16">]</h1>
-                    <h1 class="anim an--17">]</h1>
-                   </div>
-                   <div class="tbl">
-                       <table class="table-anim">
-                           <tr>
-                               <td colspan="4">Name of Columns</td>
-                           </tr>
-                           <tr>
-                               <td>Row Index</td>
-                               <td>'One'</td>
-                               <td>'Two'</td>
-                               <td>'Three'</td>
-                           </tr>
-                           <tr class="rw--1">
-                               <td>0</td>
-                               <td class="tblDt dt--3">1</td>
-                               <td class="tblDt dt--4">2</td>
-                               <td class="tblDt dt--5">3</td>
-                           </tr>
-                           <tr class="rw--7">
-                               <td>1</td>
-                               <td class="tblDt dt--8">4</td>
-                               <td class="tblDt dt--9">5</td>
-                               <td class="tblDt dt--10">6</td>
-                           </tr>
-                           <tr class="rw--12">
-                               <td>2</td>
-                               <td class="tblDt dt--13">7</td>
-                               <td class="tblDt dt--14">8</td>
-                               <td class="tblDt dt--15">9</td>
-                           </tr>
-                       </table>
-                   </div>
-
-                   
-                   <h1 class="obs">Observation</h1>
-                   <span class="observ">
-                       <p class="det det--1"></p>
-                       <p class="det det--2">The start of row 0</p>
-                       <p class="det det--3">The element 1 of sub-list 1 is assigned to [ 0 , 0 ] in the DataFrame</p>
-                       <p class="det det--4">The element 2 of sub-list 1 is assigned to [ 0 , 1 ] in the DataFrame</p>
-                       <p class="det det--5">The element 3 of sub-list 2 is assigned to [ 0 , 2 ] in the DataFrame</p>
-                       <p class="det det--6">The end of row 0</p>
-                       <p class="det det--7">The start of row 1</p>
-                       <p class="det det--8">The element 4 of sub-list 2 is assigned to [ 1 , 0 ] in the DataFrame</p>
-                       <p class="det det--9">The element 5 of sub-list 2 is assigned to [ 1 , 1 ] in the DataFrame</p>
-                       <p class="det det--10">The element 6 of sub-list 3 is assigned to [ 1 , 2 ] in the DataFrame</p>
-                       <p class="det det--11">The end of row 1</p>
-                       <p class="det det--12">The start of row 2</p>
-                       <p class="det det--13">The element 7 of sub-list 3 is assigned to [ 2 , 0 ] in the DataFrame</p>
-                       <p class="det det--14">The element 8 of sub-list 3 is assigned to [ 2 , 1 ] in the DataFrame</p>
-                       <p class="det det--15">The element 9 of sub-list 4 is assigned to [ 2 , 2 ] in the DataFrame</p>
-                       <p class="det det--16">The end of row 2</p>
-                       <p class="det det--17">The end of row 3</p>
-                   </span>
-                   <button class="nxt">Next</button>
-                   <br><br><br>
-                   <h3><b><center>DELETE A DATA IN A DATAFRAME</center> </b></h3>
+                        <h2 class="detl-1">On runing: pandas.DataFrame([[1,2,3],[4,5,6],[7,8,9]],
+                            [0,1,2],['One','Two','Three'] )</h2>
+                        <div class="cont">
+                            <h1 class="anim an--1">[</h1>
+                            <h1 class="anim an--2">[</h1>
+                            <h1 class="anim an--3">1</h1>
+                            <h1>,</h1>
+                            <h1 class="anim an--4">2</h1>
+                            <h1>,</h1>
+                            <h1 class="anim an--5">3</h1>
+                            <h1 class="anim an--6">]</h1>
+                            <h1>,</h1>
+                            <h1 class="anim an--7">[</h1>
+                            <h1 class="anim an--8">4</h1>
+                            <h1>,</h1>
+                            <h1 class="anim an--9">5</h1>
+                            <h1>,</h1>
+                            <h1 class="anim an--10">6</h1>
+                            <h1 class="anim an--11">]</h1>
+                            <h1>,</h1>
+                            <h1 class="anim an--12">[</h1>
+                            <h1 class="anim an--13">7</h1>
+                            <h1>,</h1>
+                            <h1 class="anim an--14">8</h1>
+                            <h1>,</h1>
+                            <h1 class="anim an--15">9</h1>
+                            <h1 class="anim an--16">]</h1>
+                            <h1 class="anim an--17">]</h1>
+                        </div>
+                        <div class="tbl">
+                            <table class="table-anim">
+                                <tr>
+                                    <td colspan="4">Name of Columns</td>
+                                </tr>
+                                <tr>
+                                    <td>Row Index</td>
+                                    <td>'One'</td>
+                                    <td>'Two'</td>
+                                    <td>'Three'</td>
+                                </tr>
+                                <tr class="rw--1">
+                                    <td>0</td>
+                                    <td class="tblDt dt--3">1</td>
+                                    <td class="tblDt dt--4">2</td>
+                                    <td class="tblDt dt--5">3</td>
+                                </tr>
+                                <tr class="rw--7">
+                                    <td>1</td>
+                                    <td class="tblDt dt--8">4</td>
+                                    <td class="tblDt dt--9">5</td>
+                                    <td class="tblDt dt--10">6</td>
+                                </tr>
+                                <tr class="rw--12">
+                                    <td>2</td>
+                                    <td class="tblDt dt--13">7</td>
+                                    <td class="tblDt dt--14">8</td>
+                                    <td class="tblDt dt--15">9</td>
+                                </tr>
+                            </table>
+                        </div>
 
 
-                   <div class="tbl">
-                    <table class="table-anim">
-                        <tr>
-                            <td colspan="4">Name of Columns</td>
-                        </tr>
-                        <tr>
-                            <td>Row Index</td>
-                            <td>'One'</td>
-                            <td>'Two'</td>
-                            <td>'Three'</td>
-                        </tr>
-                        <tr class="rw--1">
-                            <td>0</td>
-                            <td class="tblDt dt--3">1</td>
-                            <td class="tblDt dt--4">2</td>
-                            <td class="tblDt dt--5">3</td>
-                        </tr>
-                        <tr class="rw--7">
-                            <td>1</td>
-                            <td class="tblDt dt--8">4</td>
-                            <td class="tblDt dt--9">5</td>
-                            <td class="tblDt dt--10">6</td>
-                        </tr>
-                        <tr class="rw--12">
-                            <td>2</td>
-                            <td class="tblDt dt--13">7</td>
-                            <td class="tblDt dt--14">8</td>
-                            <td class="tblDt dt--15">9</td>
-                        </tr>
-                    </table>
+                        <h1 class="obs">Observation</h1>
+                        <span class="observ">
+                            <p class="det det--1"></p>
+                            <p class="det det--2">The start of row 0</p>
+                            <p class="det det--3">The element 1 of sub-list 1 is assigned to [ 0 , 0 ] in the DataFrame
+                            </p>
+                            <p class="det det--4">The element 2 of sub-list 1 is assigned to [ 0 , 1 ] in the DataFrame
+                            </p>
+                            <p class="det det--5">The element 3 of sub-list 2 is assigned to [ 0 , 2 ] in the DataFrame
+                            </p>
+                            <p class="det det--6">The end of row 0</p>
+                            <p class="det det--7">The start of row 1</p>
+                            <p class="det det--8">The element 4 of sub-list 2 is assigned to [ 1 , 0 ] in the DataFrame
+                            </p>
+                            <p class="det det--9">The element 5 of sub-list 2 is assigned to [ 1 , 1 ] in the DataFrame
+                            </p>
+                            <p class="det det--10">The element 6 of sub-list 3 is assigned to [ 1 , 2 ] in the DataFrame
+                            </p>
+                            <p class="det det--11">The end of row 1</p>
+                            <p class="det det--12">The start of row 2</p>
+                            <p class="det det--13">The element 7 of sub-list 3 is assigned to [ 2 , 0 ] in the DataFrame
+                            </p>
+                            <p class="det det--14">The element 8 of sub-list 3 is assigned to [ 2 , 1 ] in the DataFrame
+                            </p>
+                            <p class="det det--15">The element 9 of sub-list 4 is assigned to [ 2 , 2 ] in the DataFrame
+                            </p>
+                            <p class="det det--16">The end of row 2</p>
+                            <p class="det det--17">The end of row 3</p>
+                        </span>
+                        <button class="nxt">Next</button>
+                    </div>
+                    <div class="container_delete">
+                        <h3>   DELETE A DATA IN A DATAFRAME</h3>
+
+
+                        <div class="tbl">
+                            <table class="table-anim">
+                                <tr>
+                                    <td colspan="4">Name of Columns</td>
+                                </tr>
+                                <tr>
+                                    <td>Row Index</td>
+                                    <td>'One'</td>
+                                    <td>'Two'</td>
+                                    <td>'Three'</td>
+                                </tr>
+                                <tr class="rw--1">
+                                    <td>0</td>
+                                    <td class="tblDt dt--3">1</td>
+                                    <td class="tblDt dt--4">2</td>
+                                    <td class="tblDt dt--5">3</td>
+                                </tr>
+                                <tr class="rw--7">
+                                    <td>1</td>
+                                    <td class="tblDt dt--8">4</td>
+                                    <td class="tblDt dt--9">5</td>
+                                    <td class="tblDt dt--10">6</td>
+                                </tr>
+                                <tr class="rw--12">
+                                    <td>2</td>
+                                    <td class="tblDt dt--13">7</td>
+                                    <td class="tblDt dt--14">8</td>
+                                    <td class="tblDt dt--15">9</td>
+                                </tr>
+                            </table>
+                        </div>
+
+
+                        <h1 class="obs">Observation</h1>
+                        <span class="observ">
+                            <p class="det det--1"></p>
+                            <p class="det det--2">The start of row 0</p>
+                            <p class="det det--3">The element 1 of sub-list 1 is assigned to [ 0 , 0 ] in the DataFrame
+                            </p>
+                            <p class="det det--4">The element 2 of sub-list 1 is assigned to [ 0 , 1 ] in the DataFrame
+                            </p>
+                            <p class="det det--5">The element 3 of sub-list 2 is assigned to [ 0 , 2 ] in the DataFrame
+                            </p>
+                            <p class="det det--6">The end of row 0</p>
+                            <p class="det det--7">The start of row 1</p>
+                            <p class="det det--8">The element 4 of sub-list 2 is assigned to [ 1 , 0 ] in the DataFrame
+                            </p>
+                            <p class="det det--9">The element 5 of sub-list 2 is assigned to [ 1 , 1 ] in the DataFrame
+                            </p>
+                            <p class="det det--10">The element 6 of sub-list 3 is assigned to [ 1 , 2 ] in the DataFrame
+                            </p>
+                            <p class="det det--11">The end of row 1</p>
+                            <p class="det det--12">The start of row 2</p>
+                            <p class="det det--13">The element 7 of sub-list 3 is assigned to [ 2 , 0 ] in the DataFrame
+                            </p>
+                            <p class="det det--14">The element 8 of sub-list 3 is assigned to [ 2 , 1 ] in the DataFrame
+                            </p>
+                            <p class="det det--15">The element 9 of sub-list 4 is assigned to [ 2 , 2 ] in the DataFrame
+                            </p>
+                            <p class="det det--16">The end of row 2</p>
+                            <p class="det det--17">The end of row 3</p>
+                        </span>
+                        <button class="nxt">Next</button>
+                        <button class="dlt">Delete</button>
+                    </div>
                 </div>
 
-
-                   <h1 class="obs">Observation</h1>
-                   <span class="observ">
-                       <p class="det det--1"></p>
-                       <p class="det det--2">The start of row 0</p>
-                       <p class="det det--3">The element 1 of sub-list 1 is assigned to [ 0 , 0 ] in the DataFrame</p>
-                       <p class="det det--4">The element 2 of sub-list 1 is assigned to [ 0 , 1 ] in the DataFrame</p>
-                       <p class="det det--5">The element 3 of sub-list 2 is assigned to [ 0 , 2 ] in the DataFrame</p>
-                       <p class="det det--6">The end of row 0</p>
-                       <p class="det det--7">The start of row 1</p>
-                       <p class="det det--8">The element 4 of sub-list 2 is assigned to [ 1 , 0 ] in the DataFrame</p>
-                       <p class="det det--9">The element 5 of sub-list 2 is assigned to [ 1 , 1 ] in the DataFrame</p>
-                       <p class="det det--10">The element 6 of sub-list 3 is assigned to [ 1 , 2 ] in the DataFrame</p>
-                       <p class="det det--11">The end of row 1</p>
-                       <p class="det det--12">The start of row 2</p>
-                       <p class="det det--13">The element 7 of sub-list 3 is assigned to [ 2 , 0 ] in the DataFrame</p>
-                       <p class="det det--14">The element 8 of sub-list 3 is assigned to [ 2 , 1 ] in the DataFrame</p>
-                       <p class="det det--15">The element 9 of sub-list 4 is assigned to [ 2 , 2 ] in the DataFrame</p>
-                       <p class="det det--16">The end of row 2</p>
-                       <p class="det det--17">The end of row 3</p>
-                   </span>
-                   <button class="nxt">Next</button>
-                   <button class="dlt">Delete</button>
-                </div>
-<br><br><br><br/>
-                <h3><b><center>UPDATE A DATA IN A DATAFRAME</center> </b></h3>
-                <h4>Python replace() method to update values in a DataFrame.</h4>
-                <div class="tbl">
-                    <table class="table-anim">
-                        <tr>
-                            <td colspan="4">Name of Columns</td>
-                        </tr>
-                        <tr>
-                            <td>Row Index</td>
-                            <td>'One'</td>
-                            <td>'Two'</td>
-                            <td>'Three'</td>
-                        </tr>
-                        <tr class="rw--1">
-                            <td>0</td>
-                            <td class="tblDt dt--3">1</td>
-                            <td class="tblDt dt--4">2</td>
-                            <td class="tblDt dt--5">3</td>
-                        </tr>
-                        <tr class="rw--7">
-                            <td>1</td>
-                            <td class="tblDt dt--8">4</td>
-                            <td class="tblDt dt--9">5</td>
-                            <td class="tblDt dt--10">6</td>
-                        </tr>
-                        <tr class="rw--12">
-                            <td>2</td>
-                            <td class="tblDt dt--13">7</td>
-                            <td class="tblDt dt--14">8</td>
-                            <td class="tblDt dt--15">9</td>
-                        </tr>
-                    </table>
-                </div>
+                <div class="container-update">
+                    <b>
+                        UPDATE A DATA IN A DATAFRAME
+                    </b>
+                    <h4>Python replace() method to update values in a DataFrame.</h4>
+                    <h4> Syntax:</h4>
+                    <p>dataframe.replace("old string", "new string")</p>
+                    <div class="tbl">
+                        <table class="table-anim">
+                            <tr>
+                                <td colspan="4">Name of Columns</td>
+                            </tr>
+                            <tr>
+                                <td>Row Index</td>
+                                <td>'One'</td>
+                                <td>'Two'</td>
+                                <td>'Three'</td>
+                            </tr>
+                            <tr class="rw--1">
+                                <td>0</td>
+                                <td class="tblDt dt--3">1</td>
+                                <td class="tblDt dt--4">2</td>
+                                <td class="tblDt dt--5">3</td>
+                            </tr>
+                            <tr class="rw--7">
+                                <td>1</td>
+                                <td class="tblDt dt--8">4</td>
+                                <td class="tblDt dt--9">5</td>
+                                <td class="tblDt dt--10">6</td>
+                            </tr>
+                            <tr class="rw--12">
+                                <td>2</td>
+                                <td class="tblDt dt--13">7</td>
+                                <td class="tblDt dt--14">8</td>
+                                <td class="tblDt dt--15">9</td>
+                            </tr>
+                        </table>
+                    </div>
 
 
-                   <h1 class="obs">Observation</h1>
-                   <span class="observ">
-                       <p class="det det--1"></p>
-                       <p class="det det--2">The start of row 0</p>
-                       <p class="det det--3">The element 1 of sub-list 1 is assigned to [ 0 , 0 ] in the DataFrame</p>
-                       <p class="det det--4">The element 2 of sub-list 1 is assigned to [ 0 , 1 ] in the DataFrame</p>
-                       <p class="det det--5">The element 3 of sub-list 2 is assigned to [ 0 , 2 ] in the DataFrame</p>
-                       <p class="det det--6">The end of row 0</p>
-                       <p class="det det--7">The start of row 1</p>
-                       <p class="det det--8">The element 4 of sub-list 2 is assigned to [ 1 , 0 ] in the DataFrame</p>
-                       <p class="det det--9">The element 5 of sub-list 2 is assigned to [ 1 , 1 ] in the DataFrame</p>
-                       <p class="det det--10">The element 6 of sub-list 3 is assigned to [ 1 , 2 ] in the DataFrame</p>
-                       <p class="det det--11">The end of row 1</p>
-                       <p class="det det--12">The start of row 2</p>
-                       <p class="det det--13">The element 7 of sub-list 3 is assigned to [ 2 , 0 ] in the DataFrame</p>
-                       <p class="det det--14">The element 8 of sub-list 3 is assigned to [ 2 , 1 ] in the DataFrame</p>
-                       <p class="det det--15">The element 9 of sub-list 4 is assigned to [ 2 , 2 ] in the DataFrame</p>
-                       <p class="det det--16">The end of row 2</p>
-                       <p class="det det--17">The end of row 3</p>
-                   </span>
-                   <button class="nxt">Next</button>
-                   <button class="update">Update</button>
+                    <h1 class="obs">Observation</h1>
+                    <span class="observ">
+                        <p class="det det--1"></p>
+                        <p class="det det--2">The start of row 0</p>
+                        <p class="det det--3">The element 1 of sub-list 1 is assigned to [ 0 , 0 ] in the DataFrame</p>
+                        <p class="det det--4">The element 2 of sub-list 1 is assigned to [ 0 , 1 ] in the DataFrame</p>
+                        <p class="det det--5">The element 3 of sub-list 2 is assigned to [ 0 , 2 ] in the DataFrame</p>
+                        <p class="det det--6">The end of row 0</p>
+                        <p class="det det--7">The start of row 1</p>
+                        <p class="det det--8">The element 4 of sub-list 2 is assigned to [ 1 , 0 ] in the DataFrame</p>
+                        <p class="det det--9">The element 5 of sub-list 2 is assigned to [ 1 , 1 ] in the DataFrame</p>
+                        <p class="det det--10">The element 6 of sub-list 3 is assigned to [ 1 , 2 ] in the DataFrame</p>
+                        <p class="det det--11">The end of row 1</p>
+                        <p class="det det--12">The start of row 2</p>
+                        <p class="det det--13">The element 7 of sub-list 3 is assigned to [ 2 , 0 ] in the DataFrame</p>
+                        <p class="det det--14">The element 8 of sub-list 3 is assigned to [ 2 , 1 ] in the DataFrame</p>
+                        <p class="det det--15">The element 9 of sub-list 4 is assigned to [ 2 , 2 ] in the DataFrame</p>
+                        <p class="det det--16">The end of row 2</p>
+                        <p class="det det--17">The end of row 3</p>
+                    </span>
+                    <button class="nxt">Next</button>
+                    <button class="update">Update</button>
                 </div>
+
             </div>
+
             <div class="box" id="code">
                 <div class="title">
                     <h2 class="heading">Python Code</h2>
@@ -472,137 +495,139 @@
                         <option value="m6" class="methods">Method 6</option>
                     </select>
                     <span class="desc-p2"></span>
-                    <iframe src="https://www.online-python.com/rIVlbs6AC7" width="100%" height="700" frameborder="2" marginwidth="0" marginheight="0" allowfullscreen class="code-1 codes"></iframe>
-                    <iframe src="https://www.online-python.com/vIzhYrkgNJ" width="100%" height="700" frameborder="2" marginwidth="0" marginheight="0" allowfullscreen class="code-2 codes"></iframe>
-                    <iframe src="https://www.online-python.com/96PIXZ7SxC" width="100%" height="700" frameborder="2" marginwidth="0" marginheight="0" allowfullscreen class="code-3 codes"></iframe>
-                    <iframe src="https://www.online-python.com/rB2YdXTGgW" width="100%" height="700" frameborder="2" marginwidth="0" marginheight="0" allowfullscreen class="code-4 codes"></iframe>
-                    <iframe src="https://www.online-python.com/9Ed4ieI5w0" width="100%" height="700" frameborder="2" marginwidth="0" marginheight="0" allowfullscreen class="code-5 codes"></iframe>
-                    <iframe src="https://www.online-python.com/GYnCs8OJVW" width="100%" height="700" frameborder="2" marginwidth="0" marginheight="0" allowfullscreen class="code-6 codes"></iframe>
+                    <iframe src="https://www.online-python.com/rIVlbs6AC7" width="100%" height="700" frameborder="2"
+                        marginwidth="0" marginheight="0" allowfullscreen class="code-1 codes"></iframe>
+                    <iframe src="https://www.online-python.com/vIzhYrkgNJ" width="100%" height="700" frameborder="2"
+                        marginwidth="0" marginheight="0" allowfullscreen class="code-2 codes"></iframe>
+                    <iframe src="https://www.online-python.com/96PIXZ7SxC" width="100%" height="700" frameborder="2"
+                        marginwidth="0" marginheight="0" allowfullscreen class="code-3 codes"></iframe>
+                    <iframe src="https://www.online-python.com/rB2YdXTGgW" width="100%" height="700" frameborder="2"
+                        marginwidth="0" marginheight="0" allowfullscreen class="code-4 codes"></iframe>
+                    <iframe src="https://www.online-python.com/9Ed4ieI5w0" width="100%" height="700" frameborder="2"
+                        marginwidth="0" marginheight="0" allowfullscreen class="code-5 codes"></iframe>
+                    <iframe src="https://www.online-python.com/GYnCs8OJVW" width="100%" height="700" frameborder="2"
+                        marginwidth="0" marginheight="0" allowfullscreen class="code-6 codes"></iframe>
                     <div style="height: 100px; width: 100px;"></div>
-                </div>   
+                </div>
             </div>
-            
+
             <div class="box" id="quiz">
                 <div class="title">
                     <h2 class="heading">Quiz</h2>
 
-
-                
                     <br>
                     <p3> Q1. In given code dataframe ‘D1’ has ___ rows and ____ columns.<br><br>
-                
+
                         import pandas as pd <br>
                         LoD = [{‘a’:10, ‘b’:20}, {‘a’:5, ‘b’:10, ‘c’:20},{‘a’:7, ‘d’:10, ‘e’:20}] <br>
                         D1 = pd.DataFrame(LoD) <br>
-                
-                        <br>  <form action="/action_page.php">
-                            <input type="checkbox" id="Q1" name="Q1" >
-                            <label for="Q1">  3, 3 </label><br>
-                    
-                            <input type="checkbox" id="Q1" name="Q1" >
+
+                        <br>
+                        <form action="/action_page.php">
+                            <input type="checkbox" id="Q1" name="Q1">
+                            <label for="Q1"> 3, 3 </label><br>
+
+                            <input type="checkbox" id="Q1" name="Q1">
                             <label for="Q2"> 3 , 5 </label><br>
-                    
-                            <input type="checkbox" id="Q1" name="Q1" >
+
+                            <input type="checkbox" id="Q1" name="Q1">
                             <label for="Q3"> None of the above </label><br>
-                    
-                    
+
+
                             <input type="submit" value="Submit">
-                          </form> <br>
-                    
-                
-                        Ans.  3, 5 <br>
-                
-                       
-                       <br>  Q2. Which method is used to add a new row to a DataFrame <br>
-                
-                
-                       <br>  <form action="/action_page.php">
-                        <input type="checkbox" id="Q1" name="Q1" >
-                        <label for="Q1">  rloc[ ] </label><br>
-                
-                        <input type="checkbox" id="Q1" name="Q1" >
-                        <label for="Q2"> iloc[ ] </label><br>
-                
-                        <input type="checkbox" id="Q1" name="Q1" >
-                        <label for="Q3"> loc[ ] </label><br>
-                
-                
-                        <input type="submit" value="Submit">
-                      </form> <br>
-                
-                       Ans. loc[ ] <br>
-                
-                
-                       <br>  Q3.  Which method is used to delete row or column in DataFrame? <br>
-                
-                
-                       <br>  <form action="/action_page.php">
-                        <input type="checkbox" id="Q1" name="Q1" >
-                        <label for="Q1">  drop( )   </label><br>
-                
-                        <input type="checkbox" id="Q1" name="Q1" >
-                        <label for="Q2"> delete( ) </label><br>
-                
-                        <input type="checkbox" id="Q1" name="Q1" >
-                        <label for="Q3"> loc[ ] </label><br>
-                
-                
-                        <input type="submit" value="Submit">
-                      </form> <br>
-                
-                       Ans. drop( )  <br>
-                
-                
-                       <br>  Q4. To delete a row, the parameter axis of function drop( ) is assigned the value ______ <br>
-                
-                
-                       <br>  <form action="/action_page.php">
-                        <input type="checkbox" id="Q1" name="Q1" >
-                        <label for="Q1">  2 </label><br>
-                
-                        <input type="checkbox" id="Q1" name="Q1" >
-                        <label for="Q2"> 1 </label><br>
-                
-                        <input type="checkbox" id="Q1" name="Q1" >
-                        <label for="Q3"> 3 </label><br>
-                
-                
-                        <input type="submit" value="Submit">
-                      </form> <br>
-                
-                       Ans. 1  <br>
-                
-                
-                
-                
-                       <br>  Q5. We can use the __ method to merge two DataFrames <br> 
-                
-                
-                       <br>  <form action="/action_page.php">
-                        <input type="checkbox" id="Q1" name="Q1" >
-                        <label for="Q1">  join( ) </label><br>
-                
-                        <input type="checkbox" id="Q1" name="Q1" >
-                        <label for="Q2">  drop( ) </label><br>
-                
-                        <input type="checkbox" id="Q1" name="Q1" >
-                        <label for="Q3"> append( ) </label><br>
-                
-                
-                        <input type="submit" value="Submit">
-                      </form> <br>
-                
-                       Ans. append( ) <br> 
-                
-                </p3>
+                        </form> <br>
+
+
+                        Ans. 3, 5 <br>
+
+
+                        <br> Q2. Which method is used to add a new row to a DataFrame <br>
+
+
+                        <br>
+                        <form action="/action_page.php">
+                            <input type="checkbox" id="Q1" name="Q1">
+                            <label for="Q1"> rloc[ ] </label><br>
+
+                            <input type="checkbox" id="Q1" name="Q1">
+                            <label for="Q2"> iloc[ ] </label><br>
+
+                            <input type="checkbox" id="Q1" name="Q1">
+                            <label for="Q3"> loc[ ] </label><br>
+
+
+                            <input type="submit" value="Submit">
+                        </form> <br>
+
+                        Ans. loc[ ] <br>
+
+
+                        <br> Q3. Which method is used to delete row or column in DataFrame? <br>
+
+
+                        <br>
+                        <form action="/action_page.php">
+                            <input type="checkbox" id="Q1" name="Q1">
+                            <label for="Q1"> drop( ) </label><br>
+
+                            <input type="checkbox" id="Q1" name="Q1">
+                            <label for="Q2"> delete( ) </label><br>
+
+                            <input type="checkbox" id="Q1" name="Q1">
+                            <label for="Q3"> loc[ ] </label><br>
+
+
+                            <input type="submit" value="Submit">
+                        </form> <br>
+
+                        Ans. drop( ) <br>
+
+
+                        <br> Q4. To delete a row, the parameter axis of function drop( ) is assigned the value ______
+                        <br>
+
+
+                        <br>
+                        <form action="/action_page.php">
+                            <input type="checkbox" id="Q1" name="Q1">
+                            <label for="Q1"> 2 </label><br>
+
+                            <input type="checkbox" id="Q1" name="Q1">
+                            <label for="Q2"> 1 </label><br>
+
+                            <input type="checkbox" id="Q1" name="Q1">
+                            <label for="Q3"> 3 </label><br>
+
+
+                            <input type="submit" value="Submit">
+                        </form> <br>
+
+                        Ans. 1 <br>
 
 
 
 
+                        <br> Q5. We can use the __ method to merge two DataFrames <br>
 
 
+                        <br>
+                        <form action="/action_page.php">
+                            <input type="checkbox" id="Q1" name="Q1">
+                            <label for="Q1"> join( ) </label><br>
+
+                            <input type="checkbox" id="Q1" name="Q1">
+                            <label for="Q2"> drop( ) </label><br>
+
+                            <input type="checkbox" id="Q1" name="Q1">
+                            <label for="Q3"> append( ) </label><br>
 
 
+                            <input type="submit" value="Submit">
+                        </form> <br>
+
+                        Ans. append( ) <br>
+
+                    </p3>
 
 
 
@@ -615,7 +640,8 @@
                     <h2 class="heading">Result</h2>
                 </div>
                 <div class="desc1">
-                    <p class="desc">Hence we can add, delete or update data in a  DataFrame by any of these methods. Data represented in table is more preferred over linear arrays.</p>
+                    <p class="desc">Hence we can add, delete or update data in a DataFrame by any of these methods. Data
+                        represented in table is more preferred over linear arrays.</p>
                 </div>
             </div>
             <div class="box">
@@ -623,10 +649,14 @@
                     <h2 class="heading">References</h2>
                 </div>
                 <div class="desc1">
-                    <p class="desc"><a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html">Python docs - DataFrame</a></p>
-                    <p class="desc"><a href="https://www.w3schools.com/python/pandas/pandas_dataframes.asp">DataFrame on w3schools</a></p>
+                    <p class="desc"><a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html">Python
+                            docs
+                            - DataFrame</a></p>
+                    <p class="desc"><a href="https://www.w3schools.com/python/pandas/pandas_dataframes.asp">DataFrame on
+                            w3schools</a></p>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <script src="dataFrame.js"></script>
