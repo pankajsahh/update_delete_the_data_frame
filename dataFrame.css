@@ -237,7 +237,7 @@ nav .boxq a img {
 .detl {
     font-size: 1.2rem;
 }
-.nxt{
+.nxt,.updt,.dlt{
     margin: 2% auto;
     justify-content: center;
     align-items: center;
@@ -305,4 +305,22 @@ nav .boxq a img {
 
 .container_add h3{
     padding: 45px 0  0  62px;
+}
+.observ{
+    padding: 30px;
+}
+
+/* container delete ke liye css */
+
+.container_delete h3{
+    padding: 45px 0  0  62px;
+}
+
+/* container update ke liye css */
+.container-update b,h4{
+    padding: 12px 0  0  62px;
+    font-size: larger;
+}
+.container-update{
+    padding-bottom: 4% ;
 }

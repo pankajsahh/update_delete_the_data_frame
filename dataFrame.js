@@ -130,3 +130,23 @@ next.addEventListener('click',function(e){
         }
     }
 });
+
+
+function update(){
+    const btn = document.getElementById('updt-btn')
+    const updt = document.getElementById('updt-2->3')
+    if(btn.innerText==='Update'){
+        btn.innerText='reset';
+        updt.innerText=3;
+        document.querySelector('.obs-1').style.display='none';
+        document.querySelector('.obs-2').style.display='block';
+        document.querySelector('#updt-reflct').style.color = 'black';
+    }else{
+        btn.innerText='Update';
+        updt.innerText=2;
+        document.querySelector('.obs-1').style.display='block';
+        document.querySelector('.obs-2').style.display='none';
+        document.querySelector('#updt-reflct').style.color = 'red';
+    }
+    
+}
